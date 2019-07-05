@@ -1,0 +1,37 @@
+This project is a little game which is played against an IA
+
+Exemple using :
+./matchstick 4 (size of map) 2 (number max stick that you can take off)
+*********
+*   |   *
+*  |||  *
+* ||||| *
+*|||||||*
+*********
+
+Your turn:
+Line: 2
+Matches: 3
+Error: you cannot remove more than 2 matches per turn
+Your turn:
+Line: 2
+Matches: 2
+Player removed 2 match(es) from line 2
+*********
+*   |   *
+*  |    *
+* ||||| *
+*|||||||*
+*********
+
+AI's turn...
+AI removed 1 match(es) from line 4
+*********
+*   |   *
+*  |    *
+* ||||| *
+*|||||| *
+*********
+
+Your turn:
+Line:
